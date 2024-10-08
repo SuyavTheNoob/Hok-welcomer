@@ -34,12 +34,13 @@ module.exports = {
 
       const embed = new EmbedBuilder()
         .setColor('#0099ff')
-        .setTitle('👋 Welcome Bot Help')
+        .setTitle('👋 HOK NP Welcomer ')
         .setDescription('Here are the available commands:\n\n' +
           '**/welcomemessage :** set up welcome message.\n' +
           '**/setupwelcome :** Set up the welcome Bot for your server.\n' +
           '**/ping :** Check bot latency.\n' +
-          '**/support :** Display support server info');
+          '**/support :** Display support server info.\n' + 
+          '*Made by HOK Nepal Team with love<3*' );
           
       return interaction.reply({ embeds: [embed] });
     } catch (e) {
