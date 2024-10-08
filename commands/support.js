@@ -25,7 +25,7 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
   name: "support",
-  description: "Get support server link",
+  description: "Get support",
   permissions: "0x0000000000000800",
   options: [],
   run: async (client, interaction) => {
@@ -34,8 +34,8 @@ module.exports = {
      const supportServerLink = 'https://discord.gg/FUEHs7RCqz';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
-            .setTitle('Support server')
-            .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime ❤️`)
+            .setTitle('Need help?')
+            .setDescription(`Create a ticket through <#1293210175951605810> to get support. Thanks`)
             
             .setTimestamp();
 
